@@ -1,0 +1,54 @@
+2.5.1.0 - 12.7.18.66
+------------------------------------------------------------
+- Bug Fix: Under certain conditions a crash could occur during calibration.
+- Bug Fix: Under certain conditions a crash would occur while explicitly unloading the API.
+- Improvement: Better default settings for certain devices.
+- Improvement: Better internal error handling.
+
+2.5.0.0 - 12.6.14.61
+------------------------------------------------------------
+- Bug Fix: Under certain conditions the device would not track even though the image coming from the device looked good.
+- Bug Fix: When the processing was set to use a single eye a calibration could not be performed.
+- Bug Fix: When the processing was set to use the right eye only, the resulting gaze points for that eye would always be (0,0).
+- Bug Fix: If device settings were set before the device was started then they were overwritten by default values when the device was started.
+- Bug Fix: When switching the processing from dual eyes to single eye, the indicator light on the front of the device for the non processed eye used to stay in the state it was when the switch was made.
+- Bug Fix: Under certain conditions when the eyes were found, the region of interest would snap to either the top or bottom of the image instead of around the eyes.
+- Bug Fix: Under certain conditions some devices would report invalid timestamps.
+- Bug Fix: Some devices were not correctly reporting whether or not they support a given setting.
+- Bug Fix: Frame rates for certain devices were very inconsistent.
+- Feature: New devices do not need password set in order to be used.
+- Feature: Added support for using multiple devices at the same time.
+- Feature: Added the ability to create device groups in order to control multiple devices at the same time.
+- Feature: Added a setting to disable the internal IR lights of the device.
+- Feature: Added an auto bandwidth setting.
+- Feature: Added region of interest information to the QLFrameData structure.
+- Feature: Added current bandwidth information to QLFrameData structure.
+- Feature: Added the device ID of the source device to the QLFrameData structure.
+- Feature: Added the ability to stop all devices with a single function call.
+- Feature: Added a void* settings type.
+- Improvement: Auto gain is now more robust.
+- Improvement: Enhanced the accuracy of 5 point calibrations. 
+- Improvement: Recalibrating a target that has already been calibrated will never make the score worse.
+- Improvement: The API will now auto recover the connection if a device is disconnected from the computer and then reconnected.
+
+2.4.4.0 - 12.1.9.52 (Beta)
+------------------------------------------------------------
+- Bug Fix: Calibration bias reset in a calibration container when a new calibration is performed.
+- Bug Fix: Modified auto gain to reduce gain oscillation.
+- Feature: Added settings for specifying the eye radius.
+- Feature: Added three new gaze point filter methods.
+- Feature: Added eye radius calibration functions.
+- Improvement: Enhance the accuracy of the distance calculation
+
+2.3.2.0 - 11.9.23.16 
+------------------------------------------------------------
+- Bug Fix: Under certain conditions the ROI would not center properly when only one eye was found.
+- Bug Fix: Under certain conditions the ROI would not flip to check for incorrectly classified eyes.
+- Bug Fix: Minor internal bugs fixed.
+- Bug Fix: Disabled internal debugging features that were causing slow performance.
+- Improvement: Internal formatting and comment changes.
+
+
+2.3.1.0 - 11.9.7.14
+------------------------------------------------------------
+- Initial release version.

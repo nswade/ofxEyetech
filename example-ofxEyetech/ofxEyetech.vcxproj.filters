@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\testApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\Calibrate.cpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\DisplayVideo.cpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\Initialize.cpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\OpencvUtility.cpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\QL2Utility.cpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\src\EyetechUtils.cpp">
+      <Filter>addons\ofxEyetech\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxEyetech\src\ofxEyetech.cpp">
+      <Filter>addons\ofxEyetech\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{e6b30df2-bd2d-49bc-b1a8-b4068ac6ba57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech">
+      <UniqueIdentifier>{9eaf4d8f-db94-4f0d-886f-a7c694b6ea84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\src">
+      <UniqueIdentifier>{895db40b-6c09-4a5d-a8d1-b733158ae8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib">
+      <UniqueIdentifier>{41fdf8ae-3599-4eb3-bc7c-7c1294f309d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0">
+      <UniqueIdentifier>{65ca569a-87d7-46dc-902e-bfd3f6f8c745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include">
+      <UniqueIdentifier>{cefdeed1-6dbf-4b99-a01a-6302b9a114fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src">
+      <UniqueIdentifier>{b2d761e9-8f6d-4f19-a787-e14b3de9c754}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include">
+      <UniqueIdentifier>{34889756-f88c-4c6c-ab94-419e32dba61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2">
+      <UniqueIdentifier>{5dc3ea99-ff53-4664-bef6-2601b23920ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include">
+      <UniqueIdentifier>{3d954d9b-75af-46df-9040-712a5dcf6674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2">
+      <UniqueIdentifier>{dcccc23d-fb92-460b-b76b-7b165810acd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core">
+      <UniqueIdentifier>{24e0fda6-3038-4d37-8e91-f5bf09d42b82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\highgui">
+      <UniqueIdentifier>{e0506baf-c031-4703-aebd-b4f0545c82f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc">
+      <UniqueIdentifier>{b1c5b66e-88dd-48d7-bb8c-0544faa6ef00}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\testApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include\QLTypes.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include\QuickLink2.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include\QuickLink2_ptr_C.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\Calibrate.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\DisplayVideo.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\Initialize.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\OpencvUtility.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include\QL2Utility.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\src\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\core.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\core_c.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\eigen.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\internal.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\mat.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\operations.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\types_c.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\version.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core\wimage.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\highgui\highgui.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\highgui\highgui_c.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\highgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc\imgproc.hpp">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc\imgproc_c.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc\types_c.h">
+      <Filter>addons\ofxEyetech\lib\QuickLINK_2_2.5.1.0\OpenCV2.2\include\opencv2\imgproc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\src\EyetechUtils.h">
+      <Filter>addons\ofxEyetech\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxEyetech\src\ofxEyetech.h">
+      <Filter>addons\ofxEyetech\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
