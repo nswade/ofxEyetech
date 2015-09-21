@@ -10,7 +10,9 @@ Quicktime in the openframeworks build may conflict with the Quicklink libs. This
 
 of_v0.8.0_vs_release\libs\quicktime\include\processes.h
 
+'''
 #ifndef _WINBASE_
 EXTERN_API( OSErr )
 GetProcessInformation           (const ProcessSerialNumber * PSN, ProcessInfoRec *info)     THREEWORDINLINE(0x3F3C, 0x003A, 0xA88F);
 #endif
+'''
